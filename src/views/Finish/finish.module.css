@@ -1,0 +1,53 @@
+.container {
+    height: 100% !important;
+}
+
+.box {
+    background: #fff;
+    border-radius: 4px;
+    padding: 24px 10.5px;
+    border: 1px solid #ccc;
+}
+
+.box + .box {
+    margin-top: 15px;
+}
+
+.text {
+    font-family: 'Arial';
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    flex-grow: 1;
+    color: #000000;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.product span p {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #000000;
+}
+
+.product span p:first-child {
+    color: #9B9B9B;
+    text-decoration: line-through;
+}
+
+.product span p:last-child {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        height: 100% !important;
+    }
+}
